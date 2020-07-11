@@ -7,7 +7,7 @@ def linSearch(item,my_list):
             found=True
         else:
             i=i+1
-    return found
+    return found,i
 
 test=[56,67,34,12,37,56,67,78,98]
 print(linSearch(67,test))
