@@ -17,3 +17,12 @@ print('Cubes:',cubes)
 sum = reduce(lambda a,b : a+b, cubes)
 print('Sum of cubes:', sum)
 ## For understanding how lambda work with cubes a=8 b=512 then a=520 b=1728 .......
+
+'''
+output:
+list_even_no: [2, 8, 12, 34, 36, 38]
+list_odd_no: [3, 5, 7, 9, 11, 13, 23, 25]
+Cubes: [8, 512, 1728, 39304, 46656, 54872]
+Sum of cubes: 143080
+
+'''
